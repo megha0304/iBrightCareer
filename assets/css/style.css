@@ -1,0 +1,153 @@
+body {
+  line-height: 1.8;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#loading{
+position: fixed;
+width: 100%;
+height: 100vh;
+background: #fff
+url('https://i.gifer.com/ZNeT.gif')
+no-repeat center;
+z-index: 99999;
+
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  color: #232323;
+  letter-spacing: 0.5px;
+}
+
+h1, .h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+h2, .h2 {
+  font-size: 38px;
+  text-transform: uppercase;
+}
+
+h3, .h3 {
+  font-size: 28px;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+
+h4, .h4 {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+h6, .h6 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 18px 25px;
+  text-transform: uppercase;
+  border-radius: 10;
+  font-weight: 700;
+  transition: all 0.5s ease;
+  border: 1px solid transparent;
+}
+
+.btn:hover {
+  border: 1px solid rgb(245, 75, 75);
+  background: rgb(245, 75, 75);
+  color: #fff !important;
+}
+
+
+  img {
+    opacity: 0.7;
+  }
+  
+  img:hover {
+    opacity: 1.0;
+  }
+
+.carousel-caption{
+  color: #000;
+}
+
+.hover-style-1 {
+    position: relative;
+  }
+  .hover-style-1:before {
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 0px;
+    transition: all 600ms ease;
+    background: linear-gradient(90deg, rgb(245, 99, 75) 0%, #fe9418 100%);
+    border-color: rgb(245, 99, 75);
+  }
+  .hover-style-1 h3, .hover-style-1 p, .hover-style-1 a, .hover-style-1 i, .hover-style-1 h4 {
+    position: relative;
+    transition: all 600ms ease;
+  }
+  .hover-style-1:hover:before {
+    height: 100%;
+  }
+  .hover-style-1:hover a {
+    color: rgba(255, 255, 255, 0.8) !important;
+  }
+  
+  .hover-style-1:hover h3,
+  .hover-style-1:hover h4,
+  .hover-style-1:hover p,
+  .hover-style-1:hover a {
+    color: #fff;
+  }
+  
+  .hover-style-1:hover i {
+    color: rgba(255, 255, 255, 0.8) !important;
+  }
+  
+  .cta {
+    background: url("../img/hong-kong-university-edit.jpg") fixed 50% 50% no-repeat;
+    background-size: cover;
+  }
+
+  .text-center{
+    color: #000;
+  }
+  
+  
+  .card{
+    background-color: #ffba6c;
+  }
+
+  .col-sm-6{
+    border: 1px solid transparent;
+    border-color: #000;
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+  .page-footer{
+   padding: 10px;
+  }

@@ -181,3 +181,33 @@ h6, .h6 {
   .page-footer{
    padding: 10px;
   }
+  
+  /* thanks page css */
+
+  .display-3{
+    font-size: 5rem;
+    text-align: center;
+    color: rgb(245, 99, 75);
+  }
+
+  .lead{
+    color: #000;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  /* University CSS */
+
+  .card-uni{
+    height: auto;
+  }
+  .card-uni:hover{
+    background-color: #0d6efd;
+    color: #fff;
+  }
+  .card-uni:hover a{
+    color: #fff;
+  }
+  .card-text a{
+    text-decoration: none;
+  }
